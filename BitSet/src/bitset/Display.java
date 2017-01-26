@@ -181,9 +181,9 @@ public class Display extends javax.swing.JFrame {
             int x = Integer.parseInt(input);
             boolean contained = set.containsNumber(x);
             if(contained) {
-                updateStatus("Set contains " + x);
+                updateStatus("Set contains " + x + " (mod 64)");
             } else {
-                updateStatus("Set does not contain " + x);
+                updateStatus("Set does not contain " + x + " (mod 64)");
             }
             updateSet();
         } catch(NumberFormatException e) {
