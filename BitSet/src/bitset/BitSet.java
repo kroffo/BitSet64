@@ -25,4 +25,12 @@ public class BitSet {
         x = x%64;
         return (set & (1L << x)) != 0;
     }
+    
+    public String getSetString() {
+        String s = Long.toBinaryString(set);
+        while(s.length() < 64) {
+            s = "0" + s;
+        }
+        return s;
+    }
 }
