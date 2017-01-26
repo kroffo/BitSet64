@@ -6,6 +6,9 @@ The corresponding bit will be 1 when the number mod 64 is in the set, and 0 when
 
 # Running the Program
 This is a swing application. Compile the code as normal, but run the code from the package directory. From the root directory, you can just enter the following:
-``` cd BitSet/src ```
-``` javac bitset/*.java ```
-``` java bitset.Display.java ```
+
+```
+cd BitSet/src
+javac bitset/*.java
+java bitset.Display.java
+```
